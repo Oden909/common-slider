@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    text-align: center;
+    place-items: center;
+}
+#slider{
+    width: 300px;
+    height: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+    cursor: pointer;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #a740aa;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+}
+.value{
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
